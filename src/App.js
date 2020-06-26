@@ -1,25 +1,34 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Navbar from './components/Navbar';
+import AboutSection from './components/AboutSection';
+import Header from './components/Header';
+import Gallery from './components/Gallery';
+import ContactUs from './components/ContactUs';
+import Footer from './components/Footer';
+import Gallery1 from './components/Gallery1';
+import './scss/styles.scss';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Navbar />
+      <Header />
+      <AboutSection />
+      <Gallery />
+
+      <section class="page-section bg-dark text-white" id="page-section">
+        <div class="container text-center">
+          <h2 class="mb-4">Contact Your New Favorite Local Mushroom Farm</h2>
+          <a class="btn btn-light btn-xl js-scroll-trigger" href="#contact">
+            Contact Us
+          </a>
+        </div>
+      </section>
+
+      <ContactUs />
+
+      <Footer />
+    </>
   );
 }
 

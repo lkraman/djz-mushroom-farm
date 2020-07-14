@@ -15,7 +15,9 @@ const ContactUs = () => {
           <div class="row">
             <div class="col-lg-4 ml-auto text-center mb-5 mb-lg-0">
               <i class="fas fa-phone fa-3x mb-3"></i>
-              <div>+1 (555) 123-4567</div>
+              <a class="d-block" href="tel:1-610-444-4749" rel="nofollow">
+                (610) 444-4749
+              </a>
             </div>
             <div class="col-lg-4 mr-auto text-center mb-5">
               <i class="fas fa-envelope fa-3x mb-3"></i>

@@ -22,8 +22,8 @@ const ContactUs = () => {
             <div class="col-lg-4 mr-auto text-center mb-5">
               <i class="fas fa-envelope fa-3x mb-3"></i>
 
-              <a class="d-block" href="mailto:email@djzmushroomfarm.com">
-                email@djzmushroomfarm.com
+              <a class="d-block" href="mailto:info@djzmushrooms.com">
+                info@djzmushrooms.com
               </a>
             </div>
             <div class="col-lg-4 mr-auto text-center">
